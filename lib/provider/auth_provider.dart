@@ -8,8 +8,7 @@ import 'package:flutter_sixvalley_ecommerce/data/model/response/response_model.d
 import 'package:flutter_sixvalley_ecommerce/data/model/response/social_login_model.dart';
 import 'package:flutter_sixvalley_ecommerce/data/repository/auth_repo.dart';
 import 'package:flutter_sixvalley_ecommerce/helper/api_checker.dart';
-import 'package:flutter_sixvalley_ecommerce/main.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/show_custom_snakbar.dart';
+
 
 class AuthProvider with ChangeNotifier {
   final AuthRepo? authRepo;

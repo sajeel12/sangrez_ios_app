@@ -1,6 +1,7 @@
 
 class Images {
   static const String splashLogo = 'assets/images/logo_splash.png';
+  static const String pakFlag = 'assets/images/flag.png';
   static const String moreFilledImage = 'assets/images/more_filled.png';
   static const String cartArrowDownImage = 'assets/images/cart_arrow_down.png';
   static const String cartImage = 'assets/images/cart.png';

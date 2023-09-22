@@ -102,7 +102,7 @@ class SplashScreenState extends State<SplashScreen> {
             gradient: LinearGradient(
               colors: [
                  Color.fromARGB(255, 157, 240, 198),
-                 Color.fromARGB(255, 111, 206, 209), 
+                 Color.fromARGB(255, 78, 177, 91), 
                     
                  
               ],
@@ -112,6 +112,19 @@ class SplashScreenState extends State<SplashScreen> {
               ),
               
            ),
+           
+           child: Center(
+            child: Row(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(210, 0, 40, 70),
+                  child: Image.asset(Images.pakFlag, fit: BoxFit.scaleDown, width: 30),
+                ),
+              ],
+            ),
+           ),
+
+
            
             
             //width: MediaQuery.of(context).size.width,
@@ -131,13 +144,16 @@ class SplashScreenState extends State<SplashScreen> {
 
 
                  //const SizedBox(height: 15,),
-                 const Text('Made in Pakistan',
-                  style: TextStyle(
-                    color: Color.fromARGB(255, 100, 55, 4),
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold,
-                  ),
-                  ),
+                 const Padding(
+                   padding: const EdgeInsets.fromLTRB(0, 0, 40, 0),
+                   child: const Text('Made in ',
+                    style: TextStyle(
+                      color: Color.fromARGB(255, 0, 0, 0),
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                    ),
+                    ),
+                 ),
 
 
                   const SizedBox(height: 300,),
